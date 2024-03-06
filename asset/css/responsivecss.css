@@ -1,0 +1,87 @@
+/* @media only screen and (max-width: 887px) {
+  .main-nav li {
+    padding: 5px;
+  }
+  .main-nav a {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .contact-form input[type="submit"] {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 662) {
+  .contact-info {
+    flex-direction: column;
+  }
+} */
+
+@media only screen and (min-width: 200px) and (max-width: 520px) {
+  :root {
+    --padding-lg: 25px 10px;
+    --padding-sm: 10px 10px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .contact-info {
+    flex-basis: 100%;
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-info p {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .social-link ul {
+    margin: 0;
+    padding: 5px 0 10px;
+    list-style: none;
+    text-align: center;
+  }
+  .logo-area {
+    padding: 10px 0;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .main-header {
+    padding: 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .banner-image {
+    flex-basis: 100%;
+    order: 1;
+  }
+  .banner-text {
+    flex-basis: 100%;
+    order: 2;
+    padding-top: 20px;
+  }
+  .banner-text h2 {
+    font-size: 30px;
+  }
+  .child-service {
+    padding: 20px;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  #contact-area .container {
+    display: flex;
+    align-items: unset;
+    justify-content: stretch;
+  }
+  .contact-map {
+    flex-basis: 100%;
+  }
+  .contact-map iframe {
+    height: 200px;
+  }
+}
